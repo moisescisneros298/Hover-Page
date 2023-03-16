@@ -28,5 +28,26 @@ body {
         border-radius: 20px;
         background: #51446e;
         overflow: hidden;
+        .icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--i);
+            transition: 0.5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            transition-delay: 0.25s;
+            ion-icon {
+                font-size: 5em;
+                color: #fff;
+                transition: 0.5s;
+                transition-delay: 0.25s;
+                
+            }
+        }
     }
 }
