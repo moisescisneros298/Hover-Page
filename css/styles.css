@@ -78,4 +78,12 @@ body {
   transform: scale(0);
   transition: 0.5s;
   transition-delay: 0s;
+}
+.container .serviceBox .content h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.container .serviceBox .content p {
+  font-weight: 300;
+  line-height: 1.1em;
 }/*# sourceMappingURL=styles.css.map */

@@ -77,7 +77,14 @@ body {
             transform: scale(0);
             transition: 0.5s;
             transition-delay: 0s;
-
+            h2 {
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-weight: 300;
+                line-height: 1.1em;
+            }
         }
     }
 }
