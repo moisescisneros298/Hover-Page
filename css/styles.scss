@@ -5,3 +5,18 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #3f3752;
+}
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
