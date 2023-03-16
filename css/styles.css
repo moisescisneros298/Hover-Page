@@ -63,4 +63,15 @@ body {
 .container .serviceBox:hover .icon ion-icon {
   font-size: 3em;
   transition-delay: 0s;
+}
+.container .serviceBox .content {
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 90px;
+  z-index: 1;
+  transform: scale(0);
+  transition: 0.5s;
+  transition-delay: 0s;
 }/*# sourceMappingURL=styles.css.map */

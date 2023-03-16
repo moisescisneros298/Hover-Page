@@ -63,5 +63,17 @@ body {
                 }
             }
         }
+        .content {
+            position: relative;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            margin-top: 90px;
+            z-index: 1;
+            transform: scale(0);
+            transition: 0.5s;
+            transition-delay: 0s;
+            
+        }
     }
 }
