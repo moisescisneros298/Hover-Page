@@ -64,6 +64,10 @@ body {
   font-size: 3em;
   transition-delay: 0s;
 }
+.container .serviceBox:hover .content {
+  transform: scale(1);
+  transition-delay: 0.25s;
+}
 .container .serviceBox .content {
   position: relative;
   padding: 20px;

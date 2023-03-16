@@ -62,6 +62,10 @@ body {
                     transition-delay: 0s;
                 }
             }
+            .content {
+                transform: scale(1);
+                transition-delay: 0.25s;
+            }
         }
         .content {
             position: relative;
@@ -73,7 +77,7 @@ body {
             transform: scale(0);
             transition: 0.5s;
             transition-delay: 0s;
-            
+
         }
     }
 }
