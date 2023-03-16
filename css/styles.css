@@ -51,4 +51,16 @@ body {
   color: #fff;
   transition: 0.5s;
   transition-delay: 0.25s;
+}
+.container .serviceBox:hover .icon {
+  top: 30px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition-delay: 0s;
+}
+.container .serviceBox:hover .icon ion-icon {
+  font-size: 3em;
+  transition-delay: 0s;
 }/*# sourceMappingURL=styles.css.map */
